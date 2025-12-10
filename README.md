@@ -1,4 +1,4 @@
-# Multi-Modal RAG QA System (Qatar IMF Report)
+# Multi Modal Document Intelligence
 
 This project implements a **multi-modal Retrieval-Augmented Generation (RAG)** system
 for answering questions over IMF-style Article IV reports (text, tables, images). :contentReference[oaicite:1]{index=1}  
