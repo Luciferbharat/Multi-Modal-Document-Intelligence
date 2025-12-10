@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+
+pymupdf             # fitz (text + images from PDF)
+pillow
+pytesseract
+
+sentence-transformers
+numpy
+faiss-cpu
+
+groq
+python-multipart

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi-Modal RAG QA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Multi-Modal RAG QA (Qatar IMF Doc)</h1>
+
+    <section class="card">
+      <h2>1. Index Document</h2>
+      <p>Option A: Use default <code>data/qatar_test_doc.pdf</code></p>
+      <button id="btn-index-default">Index Default PDF</button>
+
+      <p>Option B: Upload a PDF and index</p>
+      <input type="file" id="file-input" accept="application/pdf" />
+      <button id="btn-upload">Upload & Index</button>
+      <p id="index-status" class="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>2. Ask a Question</h2>
+      <textarea id="question" rows="4" placeholder="Ask something about Qatar's economy, growth, fiscal policy, etc."></textarea>
+      <button id="btn-ask">Ask</button>
+      <p id="ask-status" class="status"></p>
+      <div id="answer"></div>
+      <div id="sources"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
